@@ -1,0 +1,12 @@
+RUNNING JARS FROM COMMAND LINE
+==============================
+Drone.jar and RemoteCar.jar are command line programs in executable jar format. On some systems
+this may cause the application to fail to run properly when simply double clicking the file,
+if is not running open a cmd prompt, navigate to the folder containing the jar and execute
+
+	java -jar Drone.jar
+	java -jar RemoteCar.jar
+
+This should run the program correctly.
+
+If you still have issues, check that your PATH includes your java installation, or ask your TA.
